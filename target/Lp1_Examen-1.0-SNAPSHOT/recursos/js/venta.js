@@ -18,6 +18,7 @@ function listarSucursal() {
     let datos = JSON.parse(data);
     console.log(datos);
     let select = $("<select></select>").attr({"name": "sucursal", "id": "select1"});
+    select.addClass("w-100 mt-2 p-1");
         select.append('<option disabled= "" selected="">Selecciona Sucursal</option>');
         //let fragment = document.createDocumentFragment();
         for (let dato of datos) {
@@ -33,6 +34,7 @@ function listarCliente() {
     let datos = JSON.parse(data);
     console.log(datos);
     let select = $("<select></select>").attr({"name": "sucursal", "id": "select2"});
+        select.addClass("w-100 mt-2 p-1");
         select.append('<option disabled= "" selected="">Selecciona Cliente</option>');
         //let fragment = document.createDocumentFragment();
         for (let dato of datos) {

@@ -22,7 +22,7 @@
         <div class="col-12">
           <div class="d-flex justify-content-center flex-column">
             <div class="bg-primary">
-              <h1 class="text-white">Ventas</h1>
+              <h1 class="text-white mx-2">Ventas</h1>
             </div>
             <form class="d-flex flex-column border border-primary">
               <div class="m-2 p-1" id="sucursal"></div>
